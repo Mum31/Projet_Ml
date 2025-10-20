@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Interactive Dashboard
+#  Machine Learning Interactive Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B.svg)](https://streamlit.io/)
@@ -7,36 +7,36 @@
 
 > **Une application web interactive pour explorer et comparer les algorithmes fondamentaux du Machine Learning : KNN, K-Means et Classification Ascendante Hiérarchique (CAH)**
 
-![Dashboard Preview](assets/dashboard_preview.png)
+![Dashboard Preview](dashboard_preview.png)
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
-### 🎯 Trois Algorithmes Implémentés from Scratch
+###  Trois Algorithmes Implémentés from Scratch
 - **KNN (K-Nearest Neighbors)** - Classification supervisée
 - **K-Means** - Clustering par partitionnement
 - **CAH (Hierarchical Clustering)** - Clustering hiérarchique
 
-### 🎨 Interface Moderne
+###  Interface Moderne
 - Design moderne avec gradients et glassmorphism
 - Animations fluides et transitions CSS
 - Interface responsive et intuitive
 - Visualisations matplotlib enrichies
 
-### 📊 Outils d'Analyse
+###  Outils d'Analyse
 - **Génération de données synthétiques** personnalisable
 - **Méthode du coude** pour K-Means
 - **Dendrogrammes interactifs** pour la CAH
 - **Métriques de performance** en temps réel
 - **Comparaison côte à côte** des algorithmes
 
-### 🔧 Paramètres Ajustables
+###  Paramètres Ajustables
 - Nombre d'échantillons
 - Niveau de bruit
 - Nombre de clusters
 - Paramètres spécifiques à chaque algorithme
 - Seeds aléatoires pour la reproductibilité
 
-## 🚀 Démarrage Rapide
+##  Démarrage Rapide
 
 ### Prérequis
 ```bash
@@ -73,10 +73,10 @@ streamlit run streamlit_app.py
 L'application s'ouvre automatiquement sur http://localhost:8501
 ```
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
-ml-interactive-dashboard/
+projet_ML/
 │
 ├── streamlit_app.py           # Application principale Streamlit
 ├── requirements.txt           # Dépendances Python
@@ -98,9 +98,9 @@ ml-interactive-dashboard/
     └── test_hierarchical.py
 ```
 
-## 🎓 Algorithmes Détaillés
+##  Algorithmes Détaillés
 
-### 🔍 K-Nearest Neighbors (KNN)
+###  K-Nearest Neighbors (KNN)
 **Classification supervisée basée sur la proximité**
 
 ```python
@@ -119,16 +119,16 @@ predictions = knn.predict(X_test)
 **Complexité :** O(n·d) où n = nombre d'échantillons, d = dimensions
 
 **Avantages :**
-- ✅ Simple et intuitif
-- ✅ Pas de phase d'entraînement
-- ✅ Adaptatif aux nouvelles données
+-  Simple et intuitif
+-  Pas de phase d'entraînement
+-  Adaptatif aux nouvelles données
 
 **Limitations :**
-- ⚠️ Lent pour la prédiction
-- ⚠️ Sensible au choix de k
-- ⚠️ Curse of dimensionality
+-  Lent pour la prédiction
+-  Sensible au choix de k
+-  Curse of dimensionality
 
-### 🎯 K-Means Clustering
+###  K-Means Clustering
 **Clustering non-supervisé par partitionnement**
 
 ```python
@@ -147,16 +147,16 @@ centroids = kmeans.centroids
 **Complexité :** O(n·d·k·i) où i = nombre d'itérations
 
 **Avantages :**
-- ✅ Rapide et évolutif
-- ✅ Garantie de convergence
-- ✅ Efficace pour grands datasets
+-  Rapide et évolutif
+-  Garantie de convergence
+-  Efficace pour grands datasets
 
 **Limitations :**
-- ⚠️ Nécessite de choisir k
-- ⚠️ Sensible à l'initialisation
-- ⚠️ Suppose des clusters sphériques
+-  Nécessite de choisir k
+-  Sensible à l'initialisation
+-  Suppose des clusters sphériques
 
-### 🌳 Classification Ascendante Hiérarchique (CAH)
+###  Classification Ascendante Hiérarchique (CAH)
 **Clustering hiérarchique bottom-up**
 
 ```python
@@ -175,16 +175,16 @@ labels = cah.get_clusters(n_clusters=3)
 **Complexité :** O(n³) en espace et temps
 
 **Avantages :**
-- ✅ Visualisation hiérarchique (dendrogramme)
-- ✅ Pas besoin de k à l'avance
-- ✅ Capture des structures complexes
+-  Visualisation hiérarchique (dendrogramme)
+-  Pas besoin de k à l'avance
+-  Capture des structures complexes
 
 **Limitations :**
-- ⚠️ Très coûteux computationnellement
-- ⚠️ Sensible au bruit
-- ⚠️ Non adapté aux grands datasets
+-  Très coûteux computationnellement
+-  Sensible au bruit
+-  Non adapté aux grands datasets
 
-## 📊 Captures d'Écran
+##  Captures d'Écran
 
 ### Page d'Accueil
 ![Home](assets/home.png)
@@ -201,7 +201,7 @@ labels = cah.get_clusters(n_clusters=3)
 ### Comparaison Globale
 ![Comparison](assets/comparison.png)
 
-## 🛠️ Technologies Utilisées
+##  Technologies Utilisées
 
 - **[Streamlit](https://streamlit.io/)** - Framework web interactif
 - **[NumPy](https://numpy.org/)** - Calcul scientifique
@@ -211,7 +211,7 @@ labels = cah.get_clusters(n_clusters=3)
 - **[SciPy](https://scipy.org/)** - Calculs scientifiques avancés
 - **[Pandas](https://pandas.pydata.org/)** - Manipulation de données
 
-## 📈 Métriques Implémentées
+##  Métriques Implémentées
 
 ### Classification (KNN)
 - **Accuracy** - Taux de prédictions correctes
@@ -223,24 +223,24 @@ labels = cah.get_clusters(n_clusters=3)
 - **Inertie** - Variance intra-cluster (K-Means)
 - **Méthode du coude** - Détermination du k optimal
 
-## 🎯 Cas d'Usage
+##  Cas d'Usage
 
-### 📚 Éducation
+###  Éducation
 - Apprentissage interactif des algorithmes ML
 - Visualisation des concepts abstraits
 - Expérimentation avec différents paramètres
 
-### 🔬 Recherche
+###  Recherche
 - Prototypage rapide d'algorithmes
 - Comparaison de performances
 - Génération de datasets synthétiques
 
-### 💼 Professionnel
+###  Professionnel
 - Démonstration de concepts ML
 - Sélection d'algorithmes appropriés
 - Analyse exploratoire de données
 
-## 🤝 Contribution
+##  Contribution
 
 Les contributions sont les bienvenues ! Voici comment contribuer :
 
@@ -256,7 +256,7 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 - Mettre à jour la documentation
 - Commenter le code complexe
 
-## 📝 Roadmap
+##  Roadmap
 
 - [ ] Ajout de nouveaux algorithmes (SVM, Random Forest, DBSCAN)
 - [ ] Support des datasets personnalisés (upload CSV)
@@ -267,36 +267,36 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 - [ ] Support multilingue
 - [ ] Mode sombre
 
-## 🐛 Bugs Connus
+##  Bugs Connus
 
 - Performance dégradée avec CAH pour n > 500 échantillons
 - Pas de support pour données >2D dans les visualisations
 
-## 📄 License
+##  License
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Votre Nom**
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Votre Profil](https://linkedin.com/in/yourprofile)
 - Email: your.email@example.com
 
-## 🙏 Remerciements
+##  Remerciements
 
 - Merci à la communauté Streamlit pour l'excellent framework
 - Inspiration tirée des cours de Machine Learning de Stanford
 - Datasets synthétiques générés avec Scikit-learn
 
-## 📚 Ressources Additionnelles
+##  Ressources Additionnelles
 
 - [Documentation Streamlit](https://docs.streamlit.io/)
 - [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
 - [Pattern Recognition and Machine Learning - Bishop](https://www.springer.com/gp/book/9780387310732)
 - [The Elements of Statistical Learning - Hastie et al.](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
-## ⭐ Star History
+##  Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/ml-interactive-dashboard&type=Date)](https://star-history.com/#yourusername/ml-interactive-dashboard&Date)
 
