@@ -187,7 +187,7 @@ labels = cah.get_clusters(n_clusters=3)
 ##  Captures d'Écran
 
 ### Page d'Accueil
-![Home](assets/home.png)
+![Home](dashboard_preview.png)
 
 ### KNN - Classification
 ![KNN Demo](assets/knn_demo.png)
