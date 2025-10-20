@@ -190,7 +190,7 @@ labels = cah.get_clusters(n_clusters=3)
 ![Home](dashboard_preview.png)
 
 ### KNN - Classification
-![KNN Demo](assets/knn_demo.png)
+![KNN Demo](KNN_Demo.png)
 
 ### K-Means - Méthode du Coude
 ![K-Means Elbow](assets/kmeans_elbow.png)
