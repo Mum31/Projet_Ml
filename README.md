@@ -7,7 +7,7 @@
 
 > **Une application web interactive pour explorer et comparer les algorithmes fondamentaux du Machine Learning : KNN, K-Means et Classification Ascendante Hiérarchique (CAH)**
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](fig1.png)
 
 ##  Fonctionnalités
 
